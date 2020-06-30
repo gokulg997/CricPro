@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    font-size: 10px;
+   
+}
+.container{
+    width: 60vw;
+    margin: 8em;
+    height: 80vh;
+    position: relative;
+}
+.container h1{
+    font-size: 5em;
+}
+p{
+    font-size: 2.5em;
+}
+.innings .india{
+    background-color: rgb(255, 95, 32);
+    font-size: 1.5em;
+    color: white;
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+   
+}
+.label{
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-bottom: 1px solid grey;
+}
+.details{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 5em;
+   text-align: center;
+   
+}
+.player{
+    font-size: 1.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    padding: 1em;
+    border-bottom: 1px solid grey;
+
+}
+.player .name{
+    color: blue;
+}
+.player .status{
+    color: lightgrey;
+}
+.detail{
+    text-align: left;
+}
+.extra{
+    font-size: 1.5em;
+   display: flex;
+   justify-content: space-between;
+   padding: 1em;
+   grid-column-gap: 30em;
+   border-bottom: 1px solid grey;
+   font-weight: bold;
+}
+.det{
+    padding-right: 16em;
+    
+}
+.yet{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1em;
+}
+.remain{
+    color: blue;
+}
